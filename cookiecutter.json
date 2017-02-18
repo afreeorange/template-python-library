@@ -1,0 +1,10 @@
+{
+    "author": "Priscilla Python",
+    "email": "priscilla.python@nikhil.io",
+    "package_name": "my_python_library",
+    "project_name": "My Python Library",
+    "project_description": "A Typical Python Library",
+    "project_repository": "git@github.com:afreeorange/repo.git",
+    "version": "0.0.1",
+    "documentation_markup": ["reStructuredText", "Markdown"]
+}
