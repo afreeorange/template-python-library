@@ -42,10 +42,10 @@ setup(
         'pytest-runner',
         'wheel',
 
-        {%- if cookiecutter.documentation_generator == 'reStructuredText' %}
+        {%- if cookiecutter.documentation_markup == 'reStructuredText' %}
         'Sphinx',
         'sphinx_rtd_theme',
-        {%- elif cookiecutter.documentation_generator == 'Markdown' %}
+        {%- elif cookiecutter.documentation_markup == 'Markdown' %}
         'mkdocs'
         {%- endif %}
     ],
