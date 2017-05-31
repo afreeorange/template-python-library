@@ -4,6 +4,8 @@ Cookiecutter Template for a Typical Python Library
 Usage
 -----
 
+The URI simply redirects to [this](https://raw.githubusercontent.com/afreeorange/python-project-bootstrapper/master/Makefile)
+
     wget http://public.nikhil.io/Makefile
     make
 
