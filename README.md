@@ -1,13 +1,19 @@
 Cookiecutter Template for a Typical Python Library
 ===================================================
 
+What it says on the tin. Should be compatible with both Pythons 2 and 3.
+
 Usage
 -----
 
-The URI simply redirects to [this](https://raw.githubusercontent.com/afreeorange/python-project-bootstrapper/master/Makefile)
+You'll need an active virtualenv, [cookiecutter](https://github.com/audreyr/cookiecutter) and [GNU `make`](https://www.gnu.org/software/make)
 
-    wget http://public.nikhil.io/Makefile
-    make
+```bash
+# In a virtualenv
+cookiecutter https://github.com/afreeorange/template-python-library.git
+```
+
+Then answer some questions, get into the project folder and type `make` to see a list of project tasks.
 
 What that does
 --------------
@@ -21,9 +27,7 @@ What that does
 * A comprehensive `.gitignore` (via [Github](https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore))
 * A `Makefile` that allows me to do many other things :)
 
-
 License
 -------
 
 Do whatever you want.
-
